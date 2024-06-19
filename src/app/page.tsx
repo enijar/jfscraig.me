@@ -1,9 +1,11 @@
 import React from "react";
+import pkg from "@/../package.json";
 
 export default function Page() {
   return (
     <main>
-      <>jfscraig.me</>
+      <p>{pkg.name}</p>
+      <p>v{pkg.version}</p>
     </main>
   );
 }
