@@ -1,11 +1,11 @@
 import React from "react";
-import pkg from "@/../package.json";
+import ProfilePicture from "@/components/profile-picture/profile-picture";
 
 export default function Page() {
   return (
     <main>
-      <p>{pkg.name}</p>
-      <p>v{pkg.version}</p>
+      <h1>James Frederick Stephen Craig</h1>
+      <ProfilePicture />
     </main>
   );
 }
