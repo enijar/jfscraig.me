@@ -1,11 +1,10 @@
 import React from "react";
-import ProfilePicture from "@/components/profile-picture/profile-picture";
+import ProfileHero from "@/components/profile-hero/profile-hero";
 
 export default function Page() {
   return (
     <main>
-      <h1>James Frederick Stephen Craig</h1>
-      <ProfilePicture />
+      <ProfileHero />
     </main>
   );
 }
