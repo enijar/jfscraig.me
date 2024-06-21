@@ -13,7 +13,7 @@ export default function ProfileHero() {
       />
       <div>
         <h1>James Frederick Stephen Craig</h1>
-        <h2 aria-labelledby="development-list">What I Develop</h2>
+        <h2 aria-labelledby="development-list">I Develop</h2>
         <ul id="development-list">
           <li>Websites</li>
           <li>Web apps</li>
